@@ -10,7 +10,7 @@ if (process.argv.length > 2) {
   rootPath = process.argv[2]
 } else {
   console.log('Must specify path to .yml files to modify. Read the README for warnings!!')
-  exit
+  return
 }
 
 const verbose = true
