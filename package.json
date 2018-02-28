@@ -1,0 +1,11 @@
+{
+  "name": "add-gravatar-to-yml",
+  "version": "0.0.1",
+  "description": "Add a gravatar line after an email line in many yml files with the appropriate md5 hash.  WARNINGS: Backup files before use. Check files with source control diff after use. utf8 assumed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Damien Guard <damieng@gmail.com>",
+  "license": "MIT"
+}
